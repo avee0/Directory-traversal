@@ -1,0 +1,15 @@
+#simple directory traversal case.
+
+lets assume website application is loading image from var/www/image/
+
+to perform path traversal try to modified the request and send it to server 
+
+url look like this 
+
+> http://example.com/image?filename=280.png
+
+modify parameter 
+280.png file is stored in var/www/image
+to perfom attack use payload > ../../../ect/passwd
+
+boom congratulations you have solved your first lab :)
