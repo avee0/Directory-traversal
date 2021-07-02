@@ -1,0 +1,15 @@
+
+
+To solve the lab, retrieve the contents of the /etc/passwd file. 
+
+
+    Use Burp Suite to intercept and modify a request that fetches a product image. 
+    Modify the filename parameter,
+    giving it the value: ....//....//....//etc/passwd Observe that the response contains the contents of the /etc/passwd file. 
+    
+    proccess is same us previous but here they are striping our traversal payload to bypass it use 
+    
+    ....//....//....//etc/passwd
+    ....//....//....//etc//passwd
+
+
