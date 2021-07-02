@@ -1,0 +1,22 @@
+#intro 
+
+directory traversal is a attack that can perform by malicious user to read server file or document.
+direcroty traversal attack can give attacker to access of sensitive files and crendintials for back end server. 
+attacker might be write the files.attacker can take full control of server by this vulnerability 
+
+lets assume that you visited a shopping website:
+shopping website load image from server. 
+image located in server (var/html/photo.png)
+
+
+when browser load a image it can send a request to server thats something look like this:
+
+> htttp://website.in/image?filename=photo.png
+
+paramter can be modified by attacker to perform directory traversa. 
+linux normal payload = /../../etc/passwd 
+winddow normal payload = \..\..\windows\win.ini #  On Windows, both ../ and ..\ are valid directory traversal sequences, and an equivalent attack to retrieve a standard operating system file would be:
+
+
+
+ thank you :)
