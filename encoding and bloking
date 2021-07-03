@@ -1,0 +1,7 @@
+You might be able to use various non-standard encodings, such as ..%c0%af or ..%252f, to bypass the input filter. 
+ The application blocks input containing path traversal sequences. It then performs a URL-decode of the input before using it. 
+ 
+ mathod to 
+ 
+ use ..%252f instead of using ../ 
+ ..%252f is double encoding of ../ that can be use for traversal attack
